@@ -1,21 +1,24 @@
-# Agent notes
+# AGENT.md — One-Line Slogan for a Solana Wallet Agent
 
-Entry for make.fun bounty u-phudinhvfx-one-line-slogan-for-a-solana-wallet-agent-a7f6564e ("One-Line Slogan for a Solana Wallet Agent", $2 winner takes all).
-
-## The slogan
+## Entry
 
 "Say it once. Your Solana wallet agent does the rest: swaps, sends, done before your coffee cools."
 
 17 words, 97 characters, one line, no trailing newline.
 
-## Why it fits the judge's criteria (in order)
+## How it meets the judge's criteria (in order)
 
-1. Names "your Solana wallet agent" outright — unmistakably a slogan for a Solana wallet agent.
-2. Fresh image (coffee cooling as a clock for speed), no keys/moons/bags cliché.
-3. Plain promise on one read: say it once, it swaps and sends.
-4. Two-beat rhythm plus the triple "swaps, sends, done" makes it easy to repeat.
-5. Honest: promises only what a wallet agent does.
+1. **On-subject:** names "your Solana wallet agent" outright.
+2. **Fresh:** no stock crypto lines about keys, moons, or bags. The image is a
+   cup of coffee cooling — an everyday clock for speed, not a crypto cliché.
+3. **Clear:** the wallet's promise is plain on one read — say what you want
+   once, and it swaps and sends for you. No jargon.
+4. **Memorable:** two-beat rhythm ("Say it once." / "does the rest") plus the
+   triple "swaps, sends, done" and the coffee-cools closer, easy to repeat.
+5. **Honest:** promises only what a wallet agent does — swaps and sends, fast
+   on Solana. Nothing it cannot deliver.
 
-## How it runs
+## Implementation
 
-main.py (Python 3, standard library only) writes the slogan to $MAKEFUN_OUTPUT_DIR/entry.txt with no trailing newline.
+`main.py` is standard library only (`import os`). It writes the slogan
+constant to `$MAKEFUN_OUTPUT_DIR/entry.txt` with no trailing newline.
